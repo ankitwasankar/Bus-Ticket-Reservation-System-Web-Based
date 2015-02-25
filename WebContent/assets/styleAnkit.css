@@ -1,0 +1,217 @@
+* {
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.header {
+	height: 70px;
+}
+
+.middleSectionWrapper {
+	height: 500px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.leftBlockWrapper {
+	float: left;
+}
+
+.rightBlockWrapper {
+	background-color: #111;
+	float: left;
+	border-top: solid 3px #ff1111;
+}
+
+label {
+	color: #aaa;
+}
+
+.leftBlock1 {
+	height: 49%;
+	width: 100%;
+	background-color: #111;
+	border-top: solid 3px #ffdd11;
+}
+
+.formBlock1 {
+	display: block;
+	clear: both;
+}
+
+.formBlock2 {
+	display: block;
+	clear: both;
+}
+
+.leftBlock2 {
+	height: 49%;
+	background-color: #111;
+}
+
+.leftBlock3 {
+	height: 49%;
+	background-color: #111;
+	padding-top: 10%;
+}
+
+.rightBlock1 {
+	display: block;
+	height: 97%;
+}
+
+.rightBlock2 {
+	border-top: solid 3px #ff1111;
+	height: 100%;
+	background-color: #111;
+}
+
+/*********** Search Result **************/
+.searchResult {
+	display: block;
+	background-color: #222;
+	height: 100%;
+}
+
+.searchResultTable {
+	display: block;
+	margin-top: 30px;
+	font-weight:bold;
+    width:200px;
+    height:100px;
+    box-shadow:10px 10px #444;
+}
+
+.searchResultTable td {
+	padding: 10px;
+	border: 1px solid #aaa;
+}
+.SearchResultHeading {
+	
+}
+.selected{
+		background-color: #111;
+}
+.selected:hover{
+	background-color: #441111;
+	cursor:pointer;
+}
+.thead td{
+	color:#ffcc11;
+}
+/********************  Decoration ***********************/
+.heading {
+	font-size: 20px;
+	margin: 10px 0px 20px 0px;
+}
+
+.textbox {
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 100%;
+	background-color: #555;
+	font-weight: bold;
+	border: 2px solid #333333;
+	height: 35px;
+	font-size: 13px;
+	padding: 4px 4px 4px 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+}
+
+.textbox:focus {
+	outline: none;
+	border: 2px solid #ffdd11;
+}
+
+.textboxRed {
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 100%;
+	background-color: #555;
+	font-weight: bold;
+	border: 2px solid #333333;
+	height: 35px;
+	font-size: 13px;
+	padding: 4px 4px 4px 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+}
+
+.textboxRed:focus {
+	outline: none;
+	border: 2px solid #ff3311;
+}
+
+.submitYellow {
+	height: 40px;
+	border: none;
+	border-bottom: 5px solid #cc9911;
+	margin: 20px 0px 0px 0px;
+	color: #111;
+	font-weight: bold;
+	background-color: #ddaa11;
+	font-size: 14px;
+}
+
+.submitYellow:hover {
+	cursor: pointer;
+	border-bottom: 5px solid #cc9911;
+	background-color: #aa9911;
+}
+
+.submitRed {
+	height: 40px;
+	border: none;
+	border-bottom: 5px solid #cc1111;
+	margin: 20px 0px 0px 0px;
+	color: #111;
+	font-weight: bold;
+	background-color: #aa2211;
+	font-size: 14px;
+	float: right;
+}
+
+.submitRed:hover {
+	cursor: pointer;
+	border-bottom: 5px solid #cc9911;
+	background-color: # #aa2211;
+}
+
+.link {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	clear: both;
+}
+
+.myCalendar {
+	background-color: #111;
+	color: #fff;
+}
+
+.thead {
+	font-weight: bold;
+}
+
+/********** table block making **************/
+table tr td a {
+    display:block;
+    height:inherit;
+    width:100%;
+}
+table tr td a:hover {
+    display:block;
+    height:inherit;
+    width:100%;
+}
+table tr td {
+    padding-left: 0;
+    padding-right: 0;
+}
+

@@ -1,0 +1,213 @@
+*{
+	color:#FFF;
+}
+option{
+	color:#333;
+}
+.mymainWrapper {
+	padding: 0px;
+}
+.leftWrapper{
+	padding: 0px;
+	height: 400px;
+	background-color: rgba(50, 50, 50, 0.5);
+	border-top: 5px solid #eecc11;	
+	float: left;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.rightWrapper{
+	padding: 0px;
+	background-color: rgba(50, 50, 50, 0.5);
+	border-top: 5px solid #d9534f;
+	height: 400px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	float: right;
+}
+.tableWrapper{
+	padding: 0px;
+	margin-left:10px;
+	background-color: rgba(50, 50, 50, 0.5);
+	border-top: 5px solid #eecc11;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.tableWrapper td a{
+	color:  #f0ad4e;
+	font-size: 16px;
+	font-weight:bold;
+}
+.centerformWrapper{
+	padding: 0px;
+	margin-left:250px;
+	background-color: rgba(50, 50, 50, 0.5);
+	border-top: 5px solid #eecc11;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.centertitle{
+	color:#FFF;
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.centertitle a{
+	text-decoration:none;
+	color:#FFF;
+}
+.centerform label{
+	color:#FFF;
+}
+.errordiv{
+	border-radius: 20px;
+	margin-left: 10%;
+}
+.errordiv p{
+	color:  #f0ad4e;
+	font-size:16px;
+	font-weight:bold;
+}
+.errordiv h4{
+	color:  #f0ad4e;
+	font-size:16px;
+	font-weight:bold;
+}
+.forgotpwd{
+	font-size:14px;
+	border: 2px solid #eecc11;
+}
+.logOptions{
+	background-color:#d9534f;
+}
+/*CSS FOR ANIMATIONS*/
+.logOptions a:hover{
+	color: #428bca;
+}
+.forgotpwd a:hover{
+	color: #d9534f;
+}
+.myfooter{
+	margin-top:10px;
+	height:30px;
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:6px;
+	background-color: rgba(50, 50, 50, 0.5);
+}
+/*ANIMATION CSS ENDS HERE*/
+
+/*Media queries*/
+	
+@media (min-width:768px) and (max-width:1024px){
+	.mymainWrapper{
+		padding:0px;
+		width: 768px;
+	}
+	.leftWrapper{
+		width: 768px;
+	}
+	.rightWrapper{
+		width: 768px;
+		margin-right:0px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 768px;
+	} 
+	.centerformWrapper{
+		width: 400px;
+		margin-left:165px;
+	}
+	.centertitle{
+		width:400px;
+	}
+	.myfooter{
+		width:768px;
+		font-size:14px;
+		border-radius:0px;
+	}
+}
+@media (min-width:600px) and (max-width:767px){
+	.mymainWrapper{
+		padding:0px;
+		width: 600px;
+	}
+	.leftWrapper{
+		width: 600px;
+	}
+	.rightWrapper{
+		width: 600px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 600px;
+	} 
+	.centerformWrapper{
+		width: 600px;
+		margin:0px;
+	}
+	.centertitle{
+		width:575px;
+	}
+	.myfooter{
+		width:600px;
+		font-size:14px;
+		border-radius:0px;
+	}
+}
+@media (min-width:480px) and (max-width:599px){
+	.mymainWrapper{
+		padding:0px;
+		width: 480px;
+	}
+	.leftWrapper{
+		width: 480px;
+	}
+	.rightWrapper{
+		width: 480px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 480px;
+	} 
+	.centerformWrapper{
+		width: 480px;
+		margin:0px;
+	}
+	.centertitle{
+		width:455px;
+	}
+	.myfooter{
+		width:480px;
+	}
+}
+@media (max-width:479px){	
+	.mymainWrapper{
+		padding:0px;
+		width: 300px;
+	}
+	.leftWrapper{
+		width: 300px;
+	}
+	.rightWrapper{
+		width: 300px;
+		margin-top:10px;
+	}
+	.tableWrapper{
+		width: 300px;
+	} 
+	.centerformWrapper{
+		width: 300px;
+		margin:0px;
+	}
+	.centertitle{
+		width:275px;
+	}
+	.myfooter{
+		width:300px;
+		font-size:8px;
+	}
+}
